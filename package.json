@@ -2,6 +2,15 @@
   "name": "starter-express-api",
   "version": "1.0.0",
   "description": "",
+  "dependencies": {
+        "when": "~3.x",
+        "pg": "^8.3.0",
+        "nano": "~10.x",
+        "feedparser":"~0.19.2",
+        "redis":"~0.10.1",
+        "node-red": "~2.x"
+    }
+
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
